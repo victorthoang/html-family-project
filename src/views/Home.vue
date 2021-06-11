@@ -5,7 +5,6 @@
   </div>-->
 <main>
 	<!-- <hr> -->
-
 		<section id="Assignments" >
 			<h2 id="main-content">Hello!</h2>
 			<p>Welcome to the landing page of my Html 110 Portfolio! Future content will be added here as soon as I come up with content.</p>
@@ -29,7 +28,10 @@ export default {
   name: 'Home',
   components: {
     HelloWorld
-  }
+  },
+  methods:{
+
+  },
 }
 </script>
 

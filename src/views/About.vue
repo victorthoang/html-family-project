@@ -35,7 +35,7 @@
 			</article>
 			<article id="about-myself">
 				<h2><a href="#about-myself">About Myself</a></h2>
-				<img alt="Victor Hoang" src="./images/Hoang-Victor.jpg" style="max-width:50%;height:auto">
+				<img alt="Victor Hoang" src="../assets/Hoang-Victor.jpg" style="max-width:50%;height:auto">
 				<ol>
 					<li class="none">Birthday: Winter</li>
 					<li class="none">Born and raised: Seattle, Washington.</li>
@@ -83,3 +83,9 @@
 	</main>
   </div>
 </template>
+
+<style lang="scss">
+li{
+	list-style-type: none;
+}
+</style>
