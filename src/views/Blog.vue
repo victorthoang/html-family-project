@@ -1,6 +1,7 @@
 <template>
 <main>
 	<!-- <hr> -->
+
     <button @click="toggleShowBlog">
         <span v-if="showBlog">Hide blog 1</span>
         <!-- <span v-if="!showBlog">Show Blog</span> -->
@@ -17,6 +18,7 @@
                     <p>birthday: {{person.birthday}}</p>
                 </li>
             </ul>
+            
 		</section>
     </div>
 
@@ -34,11 +36,6 @@
 			<img alt="cute golden retriever staring back at the camera innocently" src="images/kaydee.jpg" width=400px height=500px>
 		</section>
     </div>
-			<p>Or, if you prefer 
-				<span class="sr-only">this link opens in a new tab</span>
-				<a href="https://victorthoang.github.io/mockup/" target=_blank> cats</a>
-				...then you're one of THOSE PEOPLE!</p>
-
 	</main>
 </template>
 
@@ -50,8 +47,8 @@ data() {
         showBlog: true,
         showBlog2: true,
         familyMembers: [
-            {name: 'Victor Hoang', birthday: '12/16/1990', img: 'images/file-icon.png', isFav: true}, 
-            {name: 'George Hoang', birthday: '12/06/1988', img: 'images/file-icon.png', isFav: false}, 
+            {name: 'Victor Hoang', birthday: '12/16/1990', img: './assets/file-icon.png', isFav: true}, 
+            {name: 'George Hoang', birthday: '12/06/1988', img: './assets/George.PNG', isFav: false}, 
             {name: 'Daniel Hoang', birthday: '08/07/1995', img: 'images/file-icon.png', isFav: false}, 
             {name: 'Du Hoang', birthday: '12/25/1950', img: 'images/file-icon.png', isFav: true},
             {name: 'Nhi Truong', birthday: '11/14/1960', img: 'images/file-icon.png', isFav: false},
@@ -120,5 +117,10 @@ img {
 li.fav{
   background-color: #ff9ed2;
   color: white;
+}
+ul{
+    display: flex;
+  flex-direction: column;
+  background-color: lightsteelblue;
 }
 </style>

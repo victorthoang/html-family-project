@@ -1,11 +1,10 @@
 <template>
   <div class="about">
-    <h1>This is an about page</h1>
     
     <header id="top">
-		<h1 class="pageheader">About Me! (Contents)</h1>
+		<!--<h1 class="pageheader">About Me! (Contents)</h1>-->
 		<!-- <hr> -->
-		<ul>
+		<!--<ul>
 			<li class="linav">
 				<a class="active" href="./index.html"><i class="fas fa-home fa-lg"></i> Home</a>
 			</li>
@@ -18,16 +17,15 @@
 			<li class="linav">
 				<a href="#hobbies" target="_blank">Hobbies</a>
 			</li>
-		</ul>
+		</ul>-->
 	</header>
 
   <main>
 	<!-- <hr> -->
 		<section id="about-me">
-			<h2>Assignments</h2>
 			<article id="personal-statement">
 				<h3>Hello!</h3>
-				<p>My name is Victor Hoang. I'm taking this HTML110 course so that I can better understand the fundamentals of html, css, and javascript. At work I suffer from imposter syndrome because I'm always using google to find answers. I'm hoping that this will enable me to do 2 things:</p>
+				<p>My name is Victor Hoang. I'm taking this Front End Web Development Certificate so that I can better understand the fundamentals of html, css, and javascript! I'm hoping that this will enable me to do 2 things:</p>
 				<ol>
 					<li>Create a front end web page from the ground up</li>
 					<li>Understand the fundamentals of proper html practices and understand its possibilities and limitations.</li>
